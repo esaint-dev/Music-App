@@ -1,0 +1,64 @@
+body{
+    height: 100dvh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Poppins';
+}
+
+.container{
+    height: 90vh;
+    margin-top: 20px;
+    border-radius: 12px;
+    background-image: linear-gradient(to top, #060727, #3651fa);
+    width: 320px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.container img{
+    height: 20rem; 
+    width: 25rem;
+    opacity: 75%;
+    
+}
+
+.container .text{
+    position: relative;
+    bottom: 4rem;
+}
+.container .text h2{
+    color: white;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.btn{
+    position: relative;
+    bottom: 4rem;
+}
+
+button{
+    background-color: white;
+    border-radius: 16px;
+    width: 14rem;
+    font-weight: 450;
+    font-family: 'Poppins';
+    border: none;
+    padding: 0.35rem 0;
+    margin: 0.1rem 0;
+    cursor: pointer;
+}
+button:active{
+    opacity: 75%;
+}
+
+#Facebook, #Google, #Phone{
+    background-color: transparent;
+    border: 1px solid rgb(87, 87, 87);
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
