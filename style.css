@@ -1,5 +1,4 @@
-body{
-    height: 100dvh;
+:root{
     display: flex;
     text-align: center;
     justify-content: center;
@@ -7,45 +6,54 @@ body{
 }
 
 .container{
-    border-radius: 12px;
-    background-image: linear-gradient(to top, #060727, #3651fa);
+    height: 100dvh;
+    background-image: linear-gradient(to top, #01021b, #3651fa);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
     width: 100%;
-    background-size: cover;
-    position: relative;
     overflow: hidden;
 }
 
 .container img{
-    height: 20rem; 
-    width: 25rem;
+    height: 20rem;
     opacity: 75%;
     
 }
 
 .container .text{
     position: relative;
-    bottom: 1rem;
+    top: 4rem;
+    z-index: 1;
+    
 }
 .container .text h2{
     color: white;
+    font-size: 2rem;
     line-height: 2rem;
     font-weight: 600;
 }
 
 .btn{
     position: relative;
-    bottom: 1rem;
+    top: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 button{
     background-color: white;
-    border-radius: 16px;
-    width: 14rem;
+    border-radius: 20px;
+    width: 20rem;
+    height: 2.6rem;
     font-weight: 450;
     font-family: 'Poppins';
     border: none;
     padding: 0.35rem 0;
-    margin: 0.1rem 0;
+    margin: 0.3rem 0;
     cursor: pointer;
 }
 button:active{
@@ -54,7 +62,7 @@ button:active{
 
 #Facebook, #Google, #Phone{
     background-color: transparent;
-    border: 1px solid white;
+    border: 1px solid rgb(12, 73, 114);
     color: white;
     font-size: 0.8rem;
     font-weight: 400;
