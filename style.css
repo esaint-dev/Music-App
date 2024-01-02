@@ -122,6 +122,42 @@
         position: relative;
         top: 6rem;
     }
+
+    .close-group{
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.2rem;
+    }
+    .clse{
+        position: relative;
+        background-color: #ff605c;
+        border-radius: 50%;
+        width: 0.8rem;
+        height: 0.8rem;
+        cursor: pointer;
+    }
+
+    .clse h4{
+        position: relative;
+        font-weight: 550;
+        font-size: 0.8rem;
+        color: white;
+        bottom: 1.3rem;
+        text-align: center;
+        z-index: 1;
+        
+    }
+     .red{
+        background-color: #ffbd44;
+    }
+
+    .green{
+        background-color: #00ca4e;
+    }
     
     .overlay{
         position: absolute;
@@ -134,6 +170,7 @@
         display: none;
 
     }
+    
 }
 
 /* 
