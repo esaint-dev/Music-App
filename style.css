@@ -1,0 +1,224 @@
+ :root{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    
+}
+
+/* .container{
+    height: 750px;
+    background-image: linear-gradient(to top, #01021b, #3651fa);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    flex-wrap: wrap;
+    
+}
+
+.container img{
+    height: 20rem;
+    opacity: 75%;
+    flex-wrap: wrap;
+    
+}
+
+.container .text{
+    position: relative;
+    top: 4rem;
+    z-index: 1;
+    
+}
+.container .text h2{
+    color: white;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.btn{
+    position: relative;
+    top: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    background-color: white;
+    border-radius: 20px;
+    width: 20rem;
+    height: 2.6rem;
+    font-weight: 450;
+    font-family: 'Poppins';
+    border: none;
+    padding: 0.35rem 0;
+    margin: 0.3rem 0;
+    cursor: pointer;
+}
+button:active{
+    opacity: 75%;
+}
+
+#Facebook, #Google, #Phone{
+    background-color: transparent;
+    border: 1px solid rgb(12, 73, 114);
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+ */
+
+
+ 
+@media (min-width :320px) {
+    .container{
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        right: 0;
+        background-image: linear-gradient(to top, #01021b, #3651fa);
+        top: 0;
+        background-size: cover;
+        width: 100%;
+        overflow: hidden;
+        
+        
+    }
+    
+    .container img{
+        height: 20rem;
+        opacity: 75%;
+        
+        
+    }
+    
+    .container .text{
+        position: relative;
+        top: 4rem;
+        z-index: 1;
+        
+    }
+    .container .text h2{
+        color: white;
+        font-size: 2rem;
+        line-height: 2rem;
+        font-weight: 600;
+    }
+    
+    .btn{
+        position: relative;
+        top: 5rem;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    button{
+        background-color: white;
+        border-radius: 20px;
+        width: 20rem;
+        height: 2.6rem;
+        font-weight: 450;
+        font-family: 'Poppins';
+        border: none;
+        padding: 0.35rem 0;
+        margin: 0.3rem 0;
+        cursor: pointer;
+    }
+    button:active{
+        opacity: 75%;
+    }
+    
+    #Facebook, #Google, #Phone{
+        background-color: transparent;
+        border: 1px solid rgb(12, 73, 114);
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+     
+    
+}
+
+
+@media (min-width: 768px){
+
+
+    .container{
+        height: 100%;
+        background-image: linear-gradient(to bottom, rgba(17, 53, 197, 0.25), rgba(32, 38, 219, 93)), url(image/marcela.png);
+        /* background-image: linear-gradient(to top, #01021b, #3651fa); */
+        position: absolute;
+        left: 0;
+        right: 0;
+        background-size: cover;
+        top: 0;
+        width: 100%;
+        overflow: hidden;
+        
+    }
+    
+     .container img{
+        height: 20rem;
+        opacity: 75%;
+        display: none;
+        
+    }
+    
+    .container .text, .btn{
+        position: relative;
+        top: 18rem;
+    }
+
+    .container .text{
+        position: relative;
+        z-index: 1;
+        
+    }
+    .container .text h2{
+        color: white;
+        font-size: 2rem;
+        line-height: 2rem;
+        font-weight: 600;
+    }
+    
+    .btn{
+        position: relative;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    button{
+        background-color: white;
+        border-radius: 20px;
+        width: 20rem;
+        height: 2.6rem;
+        font-weight: 450;
+        font-family: 'Poppins';
+        border: none;
+        padding: 0.35rem 0;
+        margin: 0.3rem 0;
+        cursor: pointer;
+    }
+    button:active{
+        opacity: 75%;
+    }
+    
+    #Facebook, #Google, #Phone{
+        background-color: transparent;
+        border: 1px solid #3651fa;
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    
+    
+}
