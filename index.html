@@ -7,19 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="main-container">
         <img src="image/marcela.png" alt="">
         <div class="text">
             <h2>Millions of songs. <br>Free on the App.</h2>
             <h2></h2>
         </div>
         <div class="btn">
-            <button type="button" class="signUp">Sign up free</button>
+            <button type="button" id="signUp">Sign up free</button>
             <button type="button" id="Phone" value="">Continue with phone number</button>
             <button type="button" id="Google">Contine with Google</button>
             <button type="button" id="Facebook">Contine with Facebook</button>
             
         </div>
     </div>
+
+    <!-- Sign up -->
+<div id="ovrlay" class="overlay"></div>
+    <section class="log" id="logReg">
+        <form action="">
+            <input type="text" placeholder="Email or Username">
+            <input type="password" placeholder="Password">
+            <button class="logBtn" type="submit">sign Up</button>
+        </form>
+    </section>
+    
+
+
+
+    <script src="main.js"></script>
 </body>
 </html> 
